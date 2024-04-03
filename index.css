@@ -1,14 +1,28 @@
 para montar o cabeçalho inteiro, é so usar a funçâo HMTL:5 e dar enter.
+a função . e "enter" abre o div/div
+a funçao section e "Enter" abre section
+função "button" em seguida vocẽ coloca um ponto e escreve alguma especificação, como "button.botão"
+
+alura progresso
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus objetivos do ano</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <!-- código omitido -->
 <body>
-    <section class="conteudo-principal"></section>
-</body>
-</html>
+    <section class="conteudo-principal">
+      <h2 class="titulo-principal">Meus Objetivos do ano_</h2>
+      <div class="botoes">
+        <button class="botao">Cursos na Alura</button>
+        <button class="botao">Criar projetos em JavaScript</button>
+        <button class="botao">Criar um portfólio</button>
+        <button class="botao">Atualizar meu currículo</button>
+      </div>
+    </section>
+  </body>
+  </html>
